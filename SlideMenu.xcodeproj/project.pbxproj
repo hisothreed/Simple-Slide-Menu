@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9E0A03211D590997006E7CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A03201D590997006E7CC3 /* AppDelegate.swift */; };
-		9E0A03231D590997006E7CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A03221D590997006E7CC3 /* ViewController.swift */; };
 		9E0A03261D590997006E7CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A03241D590997006E7CC3 /* Main.storyboard */; };
 		9E0A03281D590997006E7CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A03271D590997006E7CC3 /* Assets.xcassets */; };
 		9E0A032B1D590997006E7CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A03291D590997006E7CC3 /* LaunchScreen.storyboard */; };
 		9E0A03361D590998006E7CC3 /* SlideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A03351D590998006E7CC3 /* SlideMenuTests.swift */; };
 		9E0A03411D590998006E7CC3 /* SlideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A03401D590998006E7CC3 /* SlideMenuUITests.swift */; };
+		9E0A034F1D590ACF006E7CC3 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A034E1D590ACF006E7CC3 /* VC1.swift */; };
+		9E0A03531D590B6E006E7CC3 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A03521D590B6E006E7CC3 /* VC2.swift */; };
+		9E0A03551D590B83006E7CC3 /* ToMenuTransitionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A03541D590B83006E7CC3 /* ToMenuTransitionClass.swift */; };
+		9E0A03571D590B90006E7CC3 /* ToViewTransitionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A03561D590B90006E7CC3 /* ToViewTransitionClass.swift */; };
+		9E0A035B1D5912EB006E7CC3 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A035A1D5912EB006E7CC3 /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		9E0A031D1D590997006E7CC3 /* SlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0A03201D590997006E7CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E0A03221D590997006E7CC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E0A03251D590997006E7CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E0A03271D590997006E7CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0A032A1D590997006E7CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		9E0A033C1D590998006E7CC3 /* SlideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0A03401D590998006E7CC3 /* SlideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuUITests.swift; sourceTree = "<group>"; };
 		9E0A03421D590998006E7CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0A034E1D590ACF006E7CC3 /* VC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		9E0A03521D590B6E006E7CC3 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		9E0A03541D590B83006E7CC3 /* ToMenuTransitionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToMenuTransitionClass.swift; sourceTree = "<group>"; };
+		9E0A03561D590B90006E7CC3 /* ToViewTransitionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToViewTransitionClass.swift; sourceTree = "<group>"; };
+		9E0A035A1D5912EB006E7CC3 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				9E0A03201D590997006E7CC3 /* AppDelegate.swift */,
-				9E0A03221D590997006E7CC3 /* ViewController.swift */,
+				9E0A03591D590BA4006E7CC3 /* ViewControllers */,
+				9E0A03581D590B97006E7CC3 /* Transition Animation */,
 				9E0A03241D590997006E7CC3 /* Main.storyboard */,
 				9E0A03271D590997006E7CC3 /* Assets.xcassets */,
 				9E0A03291D590997006E7CC3 /* LaunchScreen.storyboard */,
@@ -123,6 +132,25 @@
 				9E0A03421D590998006E7CC3 /* Info.plist */,
 			);
 			path = SlideMenuUITests;
+			sourceTree = "<group>";
+		};
+		9E0A03581D590B97006E7CC3 /* Transition Animation */ = {
+			isa = PBXGroup;
+			children = (
+				9E0A03541D590B83006E7CC3 /* ToMenuTransitionClass.swift */,
+				9E0A03561D590B90006E7CC3 /* ToViewTransitionClass.swift */,
+			);
+			name = "Transition Animation";
+			sourceTree = "<group>";
+		};
+		9E0A03591D590BA4006E7CC3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E0A034E1D590ACF006E7CC3 /* VC1.swift */,
+				9E0A03521D590B6E006E7CC3 /* VC2.swift */,
+				9E0A035A1D5912EB006E7CC3 /* MenuVC.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E0A03231D590997006E7CC3 /* ViewController.swift in Sources */,
+				9E0A03551D590B83006E7CC3 /* ToMenuTransitionClass.swift in Sources */,
+				9E0A03531D590B6E006E7CC3 /* VC2.swift in Sources */,
+				9E0A034F1D590ACF006E7CC3 /* VC1.swift in Sources */,
 				9E0A03211D590997006E7CC3 /* AppDelegate.swift in Sources */,
+				9E0A03571D590B90006E7CC3 /* ToViewTransitionClass.swift in Sources */,
+				9E0A035B1D5912EB006E7CC3 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
